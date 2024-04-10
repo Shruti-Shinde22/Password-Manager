@@ -5,7 +5,7 @@ const cors = require("cors");
 const cookieParser = require('cookie-parser');  
 require('dotenv').config();
 const { connectToDatabase } = require("./db/connection");
-app.use(cors({credentials: true, origin: 'http://localhost:3000'}));
+app.use(cors({credentials: true, origin: 'https://password-manager-app-delta.vercel.app/'}));
 app.use(cookieParser());   
 
 // SETTING UP DOTENV
