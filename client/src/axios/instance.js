@@ -1,7 +1,7 @@
 import axios from "axios";
 const isDev = true;
 
-const url = isDev ? "https://password-manager-app-delta.vercel.app/" : "";
+const url = isDev ? "http://localhost:8000/" : "";
 
 const instance = axios.create({
     baseURL: url,
